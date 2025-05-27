@@ -1,2 +1,24 @@
-# Financial-Risk-Management---Credit-Risk-analyzer
-A machine learning-based credit risk assessment tool that predicts loan defaults using financial features like age, income, and loan details. It preprocesses data, trains a Random Forest model, evaluates performance, and saves the model for future use in financial decision systems.
+# Credit Risk Manager
+
+This project is a financial risk management tool using a Random Forest classifier to predict credit default risks.
+
+## Features
+
+- Preprocesses and scales credit data
+- Trains a Random Forest model on key financial features
+- Evaluates performance using F1 Score, Precision, Recall, and Confusion Matrix
+- Saves the scaler and trained model for reuse
+
+## Files
+
+- `main.py`: Main training and evaluation script
+- `model/`: Contains the saved scaler and model files after training
+- `credit_data.csv`: Input dataset (not included, user must provide)
+
+## Usage
+
+1. Place your `credit_data.csv` file in the project root directory.
+2. Run the script:
+    ```bash
+    python main.py
+    ```
